@@ -34,6 +34,10 @@
     align-items: center;
 }
 
+.rodapeContato img {
+    padding-bottom: 25px;
+}
+
 @media (max-width: 768px) {
     .footer {
         flex-direction: column;

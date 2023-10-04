@@ -1,0 +1,8 @@
+#voltaInicio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
