@@ -1,0 +1,105 @@
+.experiencia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(177, 177, 177);
+}
+.experiencia .tituloExperiencia h1 {
+    color: var(--cor-primaria);
+    font-size: 28px;
+}
+
+.containerEmpresas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.divisao {
+    background-color: #011F43;
+    height: 475px;
+    width: 5px;
+    margin: 0 28px 0 28px;
+    margin-top: 185px;
+}
+
+.blocoEmpresas {
+    padding-top: 80px;
+    width: 50%;
+    flex-wrap: nowrap;
+}
+
+.logoExperiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.escola{
+    text-align:right;  
+    padding-bottom: 22px;  
+    
+}
+
+.empresas{
+    padding-bottom: 22px;
+}
+
+.imgLinkedin a img {
+    padding-top: 22px;
+    transition: .3s ease-in-out;
+}
+
+.escola .certificados button {
+    background-color: var(--cor-tercearia);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 50px;
+    color: var(--branca);
+    margin-top: 45px;
+    transition: .3s ease-in-out;
+}
+
+.escola .certificados button:hover {
+    transform: scale(1.1);
+}
+.empresas .imgLinkedin a img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 932px) {
+    .containerEmpresas {
+        flex-direction: column;
+        align-items: center;
+    }
+    .divisao {
+        display: none;
+    }
+    .blocoEmpresas {
+        width: 100%;
+    }
+    .experiencia {
+        height: 1468px;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+    .escola, .empresas {
+        text-align: center;
+    }
+    .imgLinkedin a img {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .experiencia {
+        height: 1750px;
+    }
+}

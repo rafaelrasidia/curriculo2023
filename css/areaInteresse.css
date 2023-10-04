@@ -1,0 +1,72 @@
+.areasInteresse {
+    padding-top: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tituloAreaInteresse h2 {
+    padding-bottom: 25px;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.areasInteresse .botoes button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none; 
+    transition: .3s ease-in-out;
+}
+
+.areasInteresse .botoes button:hover {
+    transform: scale(1.3);
+}
+
+
+.vermelho {
+    background-color: #E66053;
+    color: var(--branca);
+}
+
+.verde {
+    background-color: #4CA323;
+    color: var(--branca);
+}
+
+.azul {
+    background-color: #1DA8BB;
+    color: var(--branca);
+}
+
+.roxo {
+    background-color: #A553E6;
+    color: var(--branca);
+}
+
+.amarelo {
+    background-color: #989B00;
+    color: var(--branca);
+}
+
+
+@media (max-width: 1135px) {
+    .botoes {
+        flex-direction: column;
+    }
+    .botoes button {
+        margin-top: 10px;
+    }
+    .areasInteresse {
+        height: 425px;
+    }
+}
+
+
+
+

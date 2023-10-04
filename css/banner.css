@@ -1,0 +1,84 @@
+.banner {
+    width: 100%;
+    height: 483px;
+    background: var(--cor-primaria, #056AE6);
+    box-shadow: 5px 7px 17px 0px rgba(255, 255, 255, 0.12) inset;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.banner .saudacao {
+    color: var(--branca);
+}
+
+.banner .saudacao .textComprimenta {
+    font-size: 20px;
+    padding-bottom: 8px;
+
+}
+.banner .saudacao .titulo {
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.banner .saudacao .textDescricao {
+    font-size: 18px;
+    color: var(--branca);
+    padding-bottom: 8px;
+    font-weight: 100;
+}
+
+.banner .botoes a button {
+    background-color: var(--primaria);
+    border: none;
+    box-shadow: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    color: var(--branca);
+    border: 2px solid var(--branca);
+    transition: .3s ease-in-out;
+}
+.banner .botoes a button:hover {
+    background-color: var(--branca);
+    color: var(--primaria);
+    transform: scale(1.1);
+}
+
+.banner .icons img {
+   padding-right: 16px;
+   transition: .3s ease-in-out;
+}
+.banner .icons img:hover {
+    transform: scale(1.5) translateX(5px);
+}
+
+.banner .imagem_banner img {
+    width: 80%;  
+}
+.banner .imagem_banner {
+    text-align: right;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .banner {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .banner .imagem_banner img {
+        display: none;
+    }
+    .banner .saudacao {
+        justify-content: flex-start;
+    }
+}

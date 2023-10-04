@@ -1,0 +1,52 @@
+.footer {
+    background-color: var(--cor-primaria);
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.rodapeTexto {
+    text-align: center;
+    color: var(--branca);
+}
+
+.rodapeContato button {
+    background-color: var(--branca);
+    padding: 10px 20px 10px 20px;
+    margin-right: 25px;
+    border-radius: 50px;
+    border: none;
+    color: var(--cor-primaria);
+    font-weight: 700;
+    transition: .3s ease-in-out;
+}
+
+.rodapeContato button:hover {
+    transform: scale(1.2);
+}
+.rodapeContato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 50px;
+        height: 380px;
+    }
+    .rodapeContato {
+        padding-top: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodapeContato button {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+} 

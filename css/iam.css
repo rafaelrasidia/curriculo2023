@@ -1,0 +1,40 @@
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 670px;
+}
+
+.sobre img {
+    width: 250px;
+}
+
+.sobre .sobreTitulo h1 {
+    padding-bottom: 20px;
+    font-size: 28px;
+    color: var(--cor-primaria);
+}
+
+.sobre .sobreTitulo {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .sobre {
+        padding-left: 10%;
+        padding-right: 10%;
+        flex-direction: column;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .sobre .sobreTitulo {
+        padding-top: 50px;
+        width: 100%;
+    }
+    .sobreTitulo p {
+        text-align: justify;
+    }
+}

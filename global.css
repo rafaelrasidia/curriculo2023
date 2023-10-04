@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor-primaria: #056AE6;
+    --cor-secundaria: #CAE636;
+    --cor-tercearia: #011F43;
+    --branca: #fff;
+}
+
+body {
+    width: 100%;
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+    nav.container    
+     {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
